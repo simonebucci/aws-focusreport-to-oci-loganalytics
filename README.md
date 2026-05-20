@@ -183,9 +183,10 @@ Once the bucket is ready, create or identify the three core Log Analytics ingred
 The source is what tells OCI Log Analytics how to parse the incoming report data. For FOCUS files, this is where you define the field extraction and structure you want to use for later analysis. If your FOCUS exports are consistent, one source may be enough. If you expect multiple object naming patterns or variants, you can later use overrides in the ObjectCollectionRule to apply different sources or entity associations for specific file patterns.
 
 To import the parser and the source provided here:
-[Parser](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371247135_parser.zip)
 
-[Source](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371240689_source.zip)
+[AWS FOCUS Parser](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371247135_parser.zip)
+
+[AWS FOCUS Source](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371240689_source.zip)
 
 go to **Observability & Management** > **Log Analytics** > **Administration**, then open **Overview** and select Import Configuration Content. In the dialog box, upload the configuration file by drag-and-drop or by choosing its file path. Then click Import.
 
