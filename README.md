@@ -182,7 +182,13 @@ Once the bucket is ready, create or identify the three core Log Analytics ingred
 
 The source is what tells OCI Log Analytics how to parse the incoming report data. For FOCUS files, this is where you define the field extraction and structure you want to use for later analysis. If your FOCUS exports are consistent, one source may be enough. If you expect multiple object naming patterns or variants, you can later use overrides in the ObjectCollectionRule to apply different sources or entity associations for specific file patterns.
 
-To begin, create a parser by navigating to **Observability & Management**. From there, open **Log Analytics**, select **Administration**, and then go to **Parsers**. Click **Create Parser** and choose the **Delimited** parser type (Since FOCUS reports are usually provided in **CSV** format, this example uses a **Delimited** parser).
+To import the parser and the source provided here:
+[Parser](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371247135_parser.zip)
+[Source](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371240689_source.zip)
+
+go to **Observability & Management** > **Log Analytics** > **Administration**, then open **Overview** and select Import Configuration Content. In the dialog box, upload the configuration file by drag-and-drop or by choosing its file path. Then click Import.
+
+If you want to create a parser and a source from scratch navigate to **Observability & Management**. From there, open **Log Analytics**, select **Administration**, and then go to **Parsers**. Click **Create Parser** and choose the **Delimited** parser type (Since FOCUS reports are usually provided in **CSV** format, this example uses a **Delimited** parser).
 
 ![Figure 4](assets/oci-log-analytics-aws-finops-04.png)
 
