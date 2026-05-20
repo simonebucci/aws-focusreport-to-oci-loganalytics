@@ -123,6 +123,8 @@ These values define the source S3 bucket and prefix, the destination prefix in O
 
 After the permissions and environment variables are configured, open the Code tab of the Lambda function. Open the file lambda_function.py and replace the starter code with the following Lambda code:
 
+[lambda_function.py](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/lambda_function.py)
+
 ```python
 import os
 import tempfile
