@@ -184,6 +184,7 @@ The source is what tells OCI Log Analytics how to parse the incoming report data
 
 To import the parser and the source provided here:
 [Parser](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371247135_parser.zip)
+
 [Source](https://github.com/simonebucci/aws-focusreport-to-oci-loganalytics/blob/main/FOCUS_AWS_1777371240689_source.zip)
 
 go to **Observability & Management** > **Log Analytics** > **Administration**, then open **Overview** and select Import Configuration Content. In the dialog box, upload the configuration file by drag-and-drop or by choosing its file path. Then click Import.
